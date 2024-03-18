@@ -14,40 +14,41 @@
     <!--=============== REMIXICONS ===============-->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css"
     />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Responsive cactus website - Deservex</title>
+    <title>Responsive bakery website - Bedimcode</title>
   </head>
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo"> <i class="ri-cactus-line"></i>Cactus </a>
-
+        <a href="#" class="nav__logo">Boulangerie</a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link active-link">Home</a>
+              <a href="#home" class="nav__link active-link"><span>D</span>ébut</a>
             </li>
 
             <li class="nav__item">
-              <a href="#news" class="nav__link">News</a>
+              <a href="#news" class="nav__link"><span>N</span>ouveauté</a>
             </li>
 
             <li class="nav__item">
-              <a href="#shop" class="nav__link">Shop</a>
+              <a href="#about" class="nav__link"
+                ><span>À</span> propos de nous</a
+              >
             </li>
 
             <li class="nav__item">
-              <a href="#care" class="nav__link">Care</a>
+              <a href="#favorite" class="nav__link"><span>F</span>avoris</a>
             </li>
 
             <li class="nav__item">
-              <a href="#contact" class="nav__link">Contact</a>
+              <a href="#location" class="nav__link"><span>E</span>placement</a>
             </li>
           </ul>
 
@@ -55,15 +56,12 @@
           <div class="nav__close" id="nav-close">
             <i class="ri-close-line"></i>
           </div>
+          <img src="assets/img/bread-4.png" alt="image" class="nav__img-1" />
+          <img src="assets/img/Viking2.png" alt="image" class="nav__img-2" />
+          <!-- <img src="./assets/img/bread-1.png" alt="image" class="nav__img-2"> -->
         </div>
-        <div class="nav__actions">
-          <i class="ri-user-line"></i>
-          <i class="ri-shopping-cart-line"></i>
-
-          <!-- toggle button -->
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-line"></i>
-          </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
         </div>
       </nav>
     </header>
@@ -72,282 +70,276 @@
     <main class="main">
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
-        <div class="home__container container grid">
-          <img
-            src="./assets/img/home-cactus.png"
-            alt="image"
-            class="home__img"
-          />
+        <img src="assets/img/home-bg.jpg" alt="image" class="home__bg" />
+        <div class="home__shadow"></div>
 
+        <div class="home__container container grid">
           <div class="home__data">
             <h1 class="home__title">
-              Ornamental <br />
-              <span>Plants</span> For <br />
-              Your Home <br />
+              Sélectionnez la meilleure <br />
+              qualité de pains
             </h1>
 
-            <p class="home__description">
-              We design ornamental <span>plants</span> for your home in-house
-              for an original style and quality you won't find anywhere else.
-            </p>
+            <a href="#" class="button">Sélection de pains</a>
 
-            <div class="home__buttons">
-              <a href="#" class="button">
-                <span>
-                  <i class="ri-arrow-right-line"></i>
-                </span>
-                GO TO SHOP
+            <img
+              src="assets/img/bread-1.png"
+              alt="image"
+              class="home__bread"
+            />
+          </div>
+          <div class="home__image">
+            <img
+              src="assets/img/home-bread.png"
+              alt="image"
+              class="home__img"
+            />
+          </div>
+          <footer class="home__footer">
+            <div class="home__location">
+              <i class="ri-map-pin-line"></i>
+              <span
+                >#238 AV de Longwy <br />
+                Arlon Belgium</span
+              >
+            </div>
+            <div class="home__social">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="ri-facebook-box-line"></i>
               </a>
 
-              <a href="#" class="button__link">MORE DETAILS</a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="ri-youtube-line"></i>
+              </a>
             </div>
-          </div>
+          </footer>
         </div>
       </section>
 
       <!--==================== NEWS ====================-->
       <section class="new section" id="news">
+        <h2 class="section__title">Nouveaux Pains</h2>
+
         <div class="new__container container grid">
-          <div class="new__data">
-            <h2 class="section__title">
-              NEW PLANTS FOR <br />
-              YOUR HOME
-            </h2>
-
-            <p class="new__description">
-              Select new ornamental plants for home decoration and obtain an
-              atmosphere of harmony and freshness.
-            </p>
-          </div>
-
           <div class="new__content grid">
             <article class="new__card">
+              <div class="new__data">
+                <h2 class="new__title">Pain de seigle</h2>
+                <p class="new__description">
+                  Cuit avec des aliments sains et sans gluten. <br />
+                  Monter avec du levain pour une bonne nutrition.
+                </p>
+              </div>
+
               <img
-                src="./assets/img/new-cactus-1.png"
+                src="assets/img/new-bread-1.png"
                 alt="image"
                 class="new__img"
               />
-              <h2 class="new__title">Gymnocalycium Cactus</h2>
             </article>
 
             <article class="new__card">
+              <div class="new__data">
+                <h2 class="new__title">Pain de grains entiers</h2>
+                <p class="new__description">
+                  Croustillant et préparé maison à partir de farine biologique
+                  sans levure.
+                </p>
+              </div>
+
               <img
-                src="./assets/img/new-cactus-2.png"
+                src="assets/img/new-bread-2.png"
                 alt="image"
                 class="new__img"
               />
-              <h2 class="new__title">Lily Pad Succulent</h2>
             </article>
 
             <article class="new__card">
+              <div class="new__data">
+                <h2 class="new__title">Pain à grains multiples</h2>
+                <p class="new__description">
+                  Savoureux et fait avec différents céréales naturelles de la
+                  campagne.
+                </p>
+              </div>
+
               <img
-                src="./assets/img/new-cactus-3.png"
+                src="assets/img/new-bread-3.png"
                 alt="image"
                 class="new__img"
               />
-              <h2 class="new__title">Rebutia Cactus</h2>
             </article>
           </div>
+
+          <a href="" class="new__button button">Voir plus de pains</a>
         </div>
       </section>
 
-      <!--==================== SHOP ====================-->
-      <section class="shop section" id="shop">
-        <h2 class="section__title">THE BEST PLANTS</h2>
-        <div class="shop__container container grid">
-          <article class="shop__card">
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">À Propos de Nous</h2>
+
+            <p class="about__description">
+              Nous préparons tous types de pains faits maison, maintenir la
+              tradition d'utiliser uniquement le meilleur des ingrédients à base
+              de produits locaux dans la mesure du possible. Nous avons une
+              vaste gamme de produits de boulangerie fraîchement préparés et des
+              produits à base de café.
+            </p>
+
+            <a href="#" class="button">En savoir plus</a>
+
             <img
-              src="./assets/img/shop-cactus-1.png"
+              src="assets/img/bread-2.png"
               alt="image"
-              class="shop__img"
+              class="about__bread"
             />
-            <h3 class="shop__title">
-              Gymnocalycium <br />
-              Cactus
-            </h3>
-            <span class="shop__price">$15</span>
+          </div>
 
-            <button class="shop__button">
-              <i class="ri-shopping-bag-line"></i>
-            </button>
-          </article>
-
-          <article class="shop__card">
-            <img
-              src="./assets/img/shop-cactus-2.png"
-              alt="image"
-              class="shop__img"
-            />
-            <h3 class="shop__title">
-              Echeveria <br />
-              Succulent
-            </h3>
-            <span class="shop__price">$10</span>
-
-            <button class="shop__button">
-              <i class="ri-shopping-bag-line"></i>
-            </button>
-          </article>
-
-          <article class="shop__card">
-            <img
-              src="./assets/img/shop-cactus-3.png"
-              alt="image"
-              class="shop__img"
-            />
-            <h3 class="shop__title">
-              Ferocactus <br />
-              Cactus
-            </h3>
-            <span class="shop__price">$15</span>
-
-            <button class="shop__button">
-              <i class="ri-shopping-bag-line"></i>
-            </button>
-          </article>
-
-          <article class="shop__card">
-            <img
-              src="./assets/img/shop-cactus-4.png"
-              alt="image"
-              class="shop__img"
-            />
-            <h3 class="shop__title">
-              Key Lime Pie <br />
-              Succulent
-            </h3>
-            <span class="shop__price">$10</span>
-
-            <button class="shop__button">
-              <i class="ri-shopping-bag-line"></i>
-            </button>
-          </article>
-
-          <article class="shop__card">
-            <img
-              src="./assets/img/shop-cactus-5.png"
-              alt="image"
-              class="shop__img"
-            />
-            <h3 class="shop__title">
-              Melocactus <br />
-              Cactus
-            </h3>
-            <span class="shop__price">$15</span>
-
-            <button class="shop__button">
-              <i class="ri-shopping-bag-line"></i>
-            </button>
-          </article>
-        </div>
-      </section>
-
-      <!--==================== CARE ====================-->
-      <section class="care section" id="care">
-        <h2 class="section__title">
-          CARE AND HEALTH FOR <br />
-          YOUR CACTUS
-        </h2>
-
-        <div class="care__container container grid">
           <img
-            src="./assets/img/care-cactus.png"
+            src="assets/img/about-bread.png"
             alt="image"
-            class="care__img"
+            class="about__img"
           />
-
-          <ul class="care__list">
-            <il class="care__item">
-              <i class="ri-checkbox-fill"></i>
-              <p>
-                In cold times, add water once a month and during the summer do
-                it when the soil is very dry.
-              </p>
-            </il>
-
-            <il class="care__item">
-              <i class="ri-checkbox-fill"></i>
-              <p>
-                Have good drainage so that the cactus does not accumulate water.
-              </p>
-            </il>
-
-            <il class="care__item">
-              <i class="ri-checkbox-fill"></i>
-              <p>
-                Place your cactus or succulent in a location with indirect
-                light.
-              </p>
-            </il>
-
-            <il class="care__item">
-              <i class="ri-checkbox-fill"></i>
-              <p>
-                Do not water more than necessary, as it can accumulate too much
-                water and the plant will rot.
-              </p>
-            </il>
-
-            <il class="care__item">
-              <i class="ri-checkbox-fill"></i>
-              <p>
-                Do not expose to high temperatures, as succulent plants are not
-                fans of extremes.
-              </p>
-            </il>
-          </ul>
         </div>
       </section>
 
-      <!--==================== CONTACT ====================-->
-      <section class="contact section" id="contact">
-        <h2 class="section__title">
-          YOU WANT A CACTUS <br />
-          CONTACT US
-        </h2>
+      <!--==================== FAVORITES ====================-->
+      <section class="favorite section" id="favorite">
+        <h2 class="section__title">Favoris des clients</h2>
 
-        <div class="contact__container container grid">
-          <img
-            src="./assets/img/contact-cactus.png"
-            alt="image"
-            class="contact__img"
-          />
+        <div class="favorite__container container grid">
+          <article class="favorite__card">
+            <img
+              src="assets/img/favorite-bread-1.png"
+              alt="image"
+              class="favorite__img"
+            />
 
-          <div class="contact__content">
-            <div>
-              <h3 class="contact__title">Write to us</h3>
-
-              <div class="contact__social">
-                <a href="" target="_blank">
-                  <i class="ri-whatsapp-fill"></i>
-                </a>
-
-                <a href="" target="_blank">
-                  <i class="ri-messenger-fill"></i>
-                </a>
-
-                <a href="" target="_blank">
-                  <i class="ri-mail-fill"></i>
-                </a>
-              </div>
+            <div class="favirite__data">
+              <h2 class="favorite__title">Grains entiers</h2>
+              <span class="favorite__subtitle">Pain</span>
+              <h3 class="favorite__price">6€</h3>
             </div>
 
-            <div>
-              <h3 class="contact__title">Call us at the numbers</h3>
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
 
-              <address class="contact__infos">
-                +00-987-7654-321 <br />
-                +11-012345
-              </address>
+          <article class="favorite__card">
+            <img
+              src="assets/img/favorite-bread-2.png"
+              alt="image"
+              class="favorite__img"
+            />
+
+            <div class="favirite__data">
+              <h2 class="favorite__title">Seigle</h2>
+              <span class="favorite__subtitle">Pain</span>
+              <h3 class="favorite__price">8€</h3>
             </div>
 
-            <div>
-              <h3 class="contact__title">Find us here</h3>
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
 
-              <address class="contact__infos">
-                Lima - Sun City - Peru <br />
-                Av. Moon #4321
-              </address>
+          <article class="favorite__card">
+            <img
+              src="assets/img/favorite-bread-3.png"
+              alt="image"
+              class="favorite__img"
+            />
+
+            <div class="favirite__data">
+              <h2 class="favorite__title">Blé</h2>
+              <span class="favorite__subtitle">Pain</span>
+              <h3 class="favorite__price">3€</h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="favorite__card">
+            <img
+              src="assets/img/favorite-bread-4.png"
+              alt="image"
+              class="favorite__img"
+            />
+
+            <div class="favirite__data">
+              <h2 class="favorite__title">Multigrains</h2>
+              <span class="favorite__subtitle">Pain</span>
+              <h3 class="favorite__price">5€</h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="favorite__card">
+            <img
+              src="assets/img/favorite-bread-5.png"
+              alt="image"
+              class="favorite__img"
+            />
+
+            <div class="favirite__data">
+              <h2 class="favorite__title">Levain</h2>
+              <span class="favorite__subtitle">Pain</span>
+              <h3 class="favorite__price">7€</h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="favorite__card">
+            <img
+              src="assets/img/favorite-bread-6.png"
+              alt="image"
+              class="favorite__img"
+            />
+
+            <div class="favirite__data">
+              <h2 class="favorite__title">Français</h2>
+              <span class="favorite__subtitle">Pain</span>
+              <h3 class="favorite__price">3€</h3>
+            </div>
+
+            <button class="favorite__button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== VISIT ====================-->
+      <section class="visit section" id="location">
+        <div class="visit__container">
+          <img src="assets/img/visit-bg.jpg" alt="image" class="visit__bg" />
+          <div class="visit__shadow"></div>
+
+          <div class="visit__content container grid">
+            <div class="visit__data">
+              <h2 class="section__title">Rendez nous visite</h2>
+
+              <p class="visit__description">
+                Découvrez le meilleur pain, on a hâte de recevoir votre visite.
+              </p>
+
+              <a href="#" class="button">Voir l'emplacement</a>
             </div>
           </div>
         </div>
@@ -358,95 +350,79 @@
     <footer class="footer">
       <div class="footer__container container grid">
         <div>
-          <a href="#" class="footer__logo">
-            <i class="ri-cactus-line"></i>Cactus
-          </a>
+          <a href="" class="footer__logo">Boulangerie</a>
           <p class="footer__description">
-            Choose the best <br />
-            plants for your home.
+            Nous fabriquons le meilleur pain de la ville.
           </p>
         </div>
 
         <div class="footer__content grid">
           <div>
-            <h3 class="footer__title">COMPANY</h3>
+            <h3 class="footer__title">Adresse</h3>
 
-            <ul class="footer__links">
-              <li class="footer__">
-                <a href="#" class="footer__link">About Us</a>
+            <ul class="footer__list">
+              <li>
+                <adress class="footer__info"
+                  >#238 AV de Longwy <br />
+                  Arlon Belgium</adress
+                >
               </li>
 
-              <li class="footer__">
-                <a href="#" class="footer__link">Products</a>
-              </li>
-
-              <li class="footer__">
-                <a href="#" class="footer__link">Features</a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 class="footer__title">INFORMATION</h3>
-
-            <ul class="footer__links">
-              <li class="footer__">
-                <a href="#" class="footer__link">Blogs & News</a>
-              </li>
-
-              <li class="footer__">
-                <a href="#" class="footer__link">Contacts Us</a>
-              </li>
-
-              <li class="footer__">
-                <a href="#" class="footer__link">FAQs</a>
+              <li>
+                <adress class="footer__info">9AM - 11PM</adress>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 class="footer__title">SOCIAL MEDIA</h3>
+            <h3 class="footer__title">Contactez moi</h3>
+
+            <ul class="footer__list">
+              <li>
+                <adress class="footer__info">bakery@email.com</adress>
+              </li>
+
+              <li>
+                <adress class="footer__info">+00 987 654 321</adress>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Suivez moi</h3>
 
             <div class="footer__social">
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                class="footer__social-link"
-              >
-                <i class="ri-facebook-circle-fill"></i>
-              </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="ri-facebook-circle-line"></i>
+                </a>
 
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                class="footer__social-link"
-              >
-                <i class="ri-instagram-fill"></i>
-              </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="ri-instagram-line"></i>
+                </a>
 
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                class="footer__social-link"
-              >
-                <i class="ri-twitter-fill"></i>
-              </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <i class="ri-youtube-line"></i>
+                </a>
             </div>
           </div>
         </div>
-      </div>
 
-      <span class="footer__copy"> &#169; All Rights Reserved By Deservex </span>
+        <img src="assets/img/bread-4.png" alt="image" class="footer__img-1">
+        <img src="assets/img/bread-3.png" alt="image" class="footer__img-2">
+      </div>
+      <span class="footer__copy">
+        &#169; All Rights Reserved By Deservex
+      </span>
     </footer>
 
     <!--========== SCROLL UP ==========-->
     <a href="#" class="scrollup" id="scroll-up">
-      <i class="ri-arrow-up-line"></i>
+        <i class="ri-arrow-up-line"></i>
     </a>
     <!--=============== SCROLLREVEAL ===============-->
-    <script src="./assets/js/scrollreveal.min.js"></script>
+    <script src=""></script>
 
     <!--=============== MAIN JS ===============-->
-    <script src="./assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
